@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-style: italic;
+
+}
+body{
+    background: #0c002b;
+
+}
+.bar{
+    margin-left:50px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    background: #76def3;
+    text-align: center;
+    color: white;
+
+
+}
+.txt{
+
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.txtm{
+
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.lbl{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.text{
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+.btn01{
+
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 40px 20px 20px 20px;;
+}
+.btn1{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 28px;
+    border: none;
+    background: #85f5c6;
+}
+
+.result{
+    background:rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:10px 20px 40px 20px;
+}
+.lbl1{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+table, th, td {
+    border: 1px solid white;
+}
+.back{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	background-color: rgba(0,0,0,.5);
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    bottom: 0;
+}
+@media screen and (max-width:800px){
+    .bar{
+        font-size: 20px;
+        display: block;
+    }
+    .txtm,.btn01,.txt,.lbl,.result{
+        font-size: 16px;
+        display: block;
+    }
+    .text,.btn1{
+        font-size: 16px;
+        display: block;
+        padding: 10px;
+    }
+    .lbl1{
+        font-size: 14px;
+        display: block;
+        margin-left: 0;
+    }
+  }
